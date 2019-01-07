@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Charmander
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Charmander\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=w
+comment1.target=Charmander(greenfoot.World)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Charmander\r\n\ \r\n\ @param\ w\ is\ a\ reference\ to\ the\ world\ that\ Charmander\ gets\ added\ to\r\n\ @return\ An\ object\ of\ type\ Charmander\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ makes\ a\ cast\ to\ creature\ world,\ checks\ if\ the\ healthbar\ of\ this\ creature\ is\ lower\ or\ equal\ to\ 0\ and\ if\ so,\ show\ that\ this\r\n\ pokemon\ has\ fainted\ then\ delay\ by\ 30\ seconds,\ checks\ if\ the\ players\ second\ creatures\ healthbar\ is\ over\ 0\ and\ if\ so\ switch\ to\r\n\ creature\ 1\ set\ the\ turn\ number\ to\ 1\ remove\ the\ text\ and\ remove\ this\ object,checks\ if\ the\ players\ first\ creatures\ healthbar\ \r\n\ is\ over\ 0\ and\ if\ so\ switch\ to\ creature\ 2\ set\ the\ turn\ number\ to\ 1\ remove\ the\ text\ and\ remove\ this\ object.\r\n\ \r\n\ @param\ \ There\ are\ no\ parameters\r\n\ @return\ Nothing\ is\ returned\r\n
+comment3.params=idx
+comment3.target=void\ attack(int)
+comment3.text=\r\n\ attack\ takes\ away\ health\ from\ the\ enemy\ Creature\ using\ one\ of\r\n\ two\ predefined\ attacks\r\n\ \r\n\ @param\ idx\ is\ the\ index\ of\ the\ attack\ option\ selected\r\n\ @return\ Nothing\ is\ returned\r\n
+comment4.params=
+comment4.target=void\ attackAnimation()
+comment4.text=\r\n\ attackAnimation\ -\ makes\ a\ basic\ moving\ animation\ by\ increasing\ th\ x\ and\ y\ by\ a\ bit\ 15\ times\ then\ seting\ it's\ position\ back\ to\r\n\ where\ it\ started\ off.\ \ \r\n\ \r\n\ @param\ There\ are\ no\ parameters\r\n\ @return\ Nothing\ is\ returned\r\n
+comment5.params=idx
+comment5.target=void\ switchCreature(int)
+comment5.text=\r\n\ switchCreature\ -\ creates\ a\ cast\ to\ the\ world,\ creates\ a\ new\ creature\ variable,\ checks\ if\ the\ creatures\ fainted\ and\ if\ so\ say\ it\ has\r\n\ fainted,\ if\ it\ has\ not\ play\ an\ animation\ then\ delay\ the\ scenario\ by\ 2\ act\ cycles,\ set\ the\ transparency\ of\ the\ image\ and\ it's\r\n\ healthbar\ to\ 0,\ then\ checks\ if\ the\ idx\ is\ equal\ to\ 1\ and\ if\ so\ golem\ is\ the\ new\ creature\ for\ player\ one\ if\ not\ then\ ivysaur\ is,\r\n\ run\ the\ switchedIn\ method,\ set\ the\ turn\ number\ to\ 2.\ \r\n\ \r\n\ @param\ The\ parameter\ idx\ is\ used\ for\ switching\ to\ the\ specific\ creature\ of\ the\ players\ choice\r\n\ @return\ Nothing\ is\ returned\ \ \ \ \ \ \ \ \ \r\n
+comment6.params=
+comment6.target=void\ switchedIn()
+comment6.text=\r\n\ switchIn\ -\ sets\ transparnecy\ of\ the\ image\ and\ the\ healtbar\ of\ the\ creature\ to\ full\ and\ play\ another\ simple\ animation\ \r\n\ \r\n\ @param\ There\ are\ no\ parameters\r\n\ @return\ Nothing\ is\ returned\r\n
+numComments=7

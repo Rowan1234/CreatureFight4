@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Pikachu
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Pikachu\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=w
+comment1.target=Pikachu(greenfoot.World)
+comment1.text=\r\n\ Pikachu\ -\ sets\ up\ some\ basic\ principles\ about\ Pikachu\r\n\ \r\n\ @param\ w\ is\ a\ reference\ to\ the\ world\ that\ Pikachu\ gets\ added\ to\r\n\ @return\ An\ object\ of\ type\ Pikachu\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text="creature\r\n\ Act\ -\ checks\ if\ pikachu\ has\ fainted\ if\ so\ say\ it,\ checks\ if\ the\ health\ bar\ of\ the\ new\ "creature"\ is\ still\ greater\ than\ 0\ and\ if\ so\r\n\ swith\ the\ creature,\ set\ the\ turnumber,\ remove\ the\ message\ that\ says\ pikachu\ fainted,\ and\ remove\ the\ pikachu\ object.\ Also\ checks\ if\ player\r\n\ two\ creatures\ healthbar\ is\ still\ greater\ than\ 0,\ switch\ the\ creature,\ set\ the\ turn\ number\ to\ 2,\ remove\ the\ message\ that\ says\ \r\n\ pikachu\ fainted,\ and\ remove\ the\ pikachu\ object.\r\n\ \r\n\ @param\ There\ are\ no\ parameters\r\n\ @return\ Nothing\ is\ returned\r\n
+comment3.params=idx
+comment3.target=void\ attack(int)
+comment3.text=\r\n\ attack\ takes\ away\ health\ from\ the\ enemy\ Creature\ using\ one\ of\r\n\ two\ predefined\ attacks\r\n\ \r\n\ @param\ idx\ is\ the\ index\ of\ the\ attack\ option\ selected\r\n\ @return\ Nothing\ is\ returned\r\n
+comment4.params=
+comment4.target=void\ attackAnimation()
+comment4.text=\r\n\ attackAnimation\ -\ creates\ an\ animation\ for\ the\ pikachu\r\n\ \r\n\ @param\ There\ are\ no\ parameters\r\n\ @return\ Nothing\ is\ returned\r\n
+comment5.params=idx
+comment5.target=void\ switchCreatures(int)
+comment5.text=\r\n\ switchCreature\ -\ creates\ a\ cast\ to\ the\ world,\ creates\ a\ new\ creature\ variable,\ checks\ if\ the\ creatures\ fainted\ and\ if\ so\ say\ it\ has\r\n\ fainted,\ if\ it\ has\ not\ play\ an\ animation\ then\ delay\ the\ scenario\ by\ 2\ act\ cycles,\ set\ the\ transparency\ of\ the\ image\ and\ it's\r\n\ healthbar\ to\ 0,\ then\ checks\ if\ the\ idx\ is\ equal\ to\ 1\ and\ if\ so\ Lapras\ is\ the\ new\ creature\ for\ player\ one\ if\ not\ then\ Pidgeot\ is,\r\n\ run\ the\ switchedIn\ method,\ set\ the\ turn\ number\ to\ 1.\ \r\n\ \r\n\ @param\ The\ parameter\ idx\ is\ used\ for\ switching\ to\ the\ specific\ creature\ of\ the\ players\ choice\r\n\ @return\ Nothing\ is\ returned\ \ \ \ \ \ \ \ \ \r\n
+comment6.params=
+comment6.target=void\ switchedIn()
+comment6.text=\r\n\ TODO\ (137)\:\ Declare\ a\ method\ called\ switchedIn\ that\ will\ be\ accessed\ by\r\n\ \ \ \ \ \ \ \ \ \ other\ classes,\ has\ no\ return\ type,\ and\ no\ parameters\r\n\ \ \ \ \ \ \ \ \ \ \r\n\ TODO\ (138)\:\ Set\ the\ transparency\ of\ the\ image\ of\ Pikachu\ and\ the\r\n\ \ \ \ \ \ \ \ \ \ transparency\ of\ the\ image\ of\ the\ health\ bar\ to\ full\r\n\ \ \ \ \ \ \ \ \ \ \r\n\ TODO\ (139)\:\ Declare\ a\ loop\ that\ will\ repeat\ while\ the\ x\ location\ of\ Pikachu\r\n\ \ \ \ \ \ \ \ \ \ is\ greater\ than\ the\ width\ of\ the\ world\ minus\ half\ the\ width\ of\ the\ image\ of\ Pikachu\r\n\ \ \ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ TODO\ (140)\:\ Set\ the\ location\ of\ Pikachu\ to\ the\ current\ x\ location\ minus\ 5\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ and\ the\ current\ y\ location\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ TODO\ (141)\:\ Delay\ the\ scenario\ by\ two\ cycles\r\n
+numComments=7
